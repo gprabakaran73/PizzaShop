@@ -6,7 +6,7 @@ var express = require("express");
 var app = express();
 
 app.use(express.static(__dirname + "/public"));
-
+//test vc
 var hb = require("express-handlebars");
 app.engine("handlebars", hb());
 app.set("view engine", "handlebars");
